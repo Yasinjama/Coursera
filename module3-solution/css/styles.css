@@ -1,0 +1,58 @@
+body {
+	background-color: #232B2B;
+}
+
+#header-nav {
+	background-color: #DC3D24;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{
+	color: #FFFFFF;
+	font-size: 1.5em;
+	margin-top:0;
+	margin: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #232B2B;
+}
+
+
+ /********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+
+  /* End Header */
+}
+@media (max-width: 767px) {
+
+	#collapsable-nav a{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.6em;
+	border-bottom: 1px solid #FFFFFF;
+}
+#collapsable-nav a:hover {
+	background: #232B2B;
+}
+ #collapsable-nav li {
+
+ }
+ #collapsable-nav ul {
+ 	margin-top:0;
+ 	margin-bottom:0;
+ }
+}
