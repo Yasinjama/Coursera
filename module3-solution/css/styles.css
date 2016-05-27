@@ -38,7 +38,10 @@ body {
 	margin-bottom:0;
 }
 
-section {
+.chicken {
 	background-color: #FFFFFF;
 	color: #232B2B;
+	margin-top: 15px;
+	padding: 10px 40px 10px 40px;
+
 }
